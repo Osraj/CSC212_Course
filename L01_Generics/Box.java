@@ -1,15 +1,13 @@
-package 01_Generics;
+package L01_Generics;
 
-public class Box<T> 
-{
+public class Box<T> {
     private T t; // T stands for Type
-    public Box(T t)
-    {
+
+    public Box(T t) {
         this.t = t;
     }
 
-    public T get()
-    {
+    public T get() {
         return t;
     }
 }

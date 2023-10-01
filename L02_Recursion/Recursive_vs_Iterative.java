@@ -1,6 +1,7 @@
 package L02_Recursion;
 
 /* 
+ * -- Code 01 --
  * Steps to solve problems using Recursive functions:
  *  1- write the base case (when the recursive function should stop recalling itself and traceback its steps) [for example: when you reach 1 in calculating factorial of n]
  *      note: it is possible to have more than one base case

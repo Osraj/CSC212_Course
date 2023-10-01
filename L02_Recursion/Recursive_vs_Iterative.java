@@ -6,6 +6,8 @@ package L02_Recursion;
  *      note: it is possible to have more than one base case
  *  2- write the edge cases(special cases) [for example: when the array is empty]
  *  3- write the recursive case (it should have a part of the current call, and a part of the next call, so at the end they are combined to get the final result)
+ * 
+ * GIF to show how it is working: Recursive_Call.gif
  */
 
 public class Recursive_vs_Iterative {

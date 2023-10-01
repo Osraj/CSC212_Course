@@ -2,6 +2,7 @@ package L02_Recursion;
 
 /* 
  * -- Code 03 --
+ * -- Linear Recursion -- (In this case a recursive method makes at most one recursive call each time it is invoked)
  * Q: Calculate the sum of A, n time using both iteration and recursion
  */
 

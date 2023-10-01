@@ -1,4 +1,4 @@
-package Generics;
+package 01_Generics;
 
 public class Box<T> 
 {

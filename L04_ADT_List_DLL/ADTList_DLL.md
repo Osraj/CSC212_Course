@@ -22,10 +22,10 @@
 
 **Case 3: Inserting Between Nodes**
 - When inserting a node between two existing nodes:
-  1. Make the new node's `before` pointer point to the previous node.
-  2. Make its `next` pointer point to the next node.
-  3. Update the `next` pointer of the previous node to point to the new node.
-  4. Update the `before` pointer of the next node to point back to the new node.
+  - Make the new node's `before` pointer point to the previous node.
+  - Make its `next` pointer point to the next node.
+  - Update the `next` pointer of the previous node to point to the new node.
+  - Update the `before` pointer of the next node to point back to the new node.
 
 [//]: # ([Block] Insert when at the middle of a list gif)
 ![ADTList_DLL_Insert_atEnd](https://github.com/Osraj/CSC212_Course/assets/46506381/43b329a1-a581-4d9f-a589-ca0c614239d4)

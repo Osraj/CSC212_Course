@@ -3,7 +3,7 @@ when attaching nodes to a doubly-linked list there are more links, and therefore
 (1) The list is empty. Add the incoming node to the head of the list. The next pointer and the before pointer point to nothing (null)
 
 [//]: # ([Block] Insert when the list is empty gif)
-<img align="left" alt="ADTList_DLL_Insert_empty" width="400" src="L04_ADT_List_DLL/Insert()/ADTList_DLL_Insert_empty.gif">
+![ADTList_DLL_Insert_empty](https://github.com/Osraj/CSC212_Course/assets/46506381/87df7dc9-2ad8-4a9c-9d0a-3db44d49f863)
 
 (2) There is one node in the list, and we append the incoming node to the front of the list. Here we append the incoming node's next to the head of the list, and the node that was already there points the before pointer back at the incoming node.
 

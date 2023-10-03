@@ -6,7 +6,7 @@
   - Set the head of the list to the new node.
 
 [//]: # ([Block] Insert when the list is empty gif)
-![ADTList_DLL_Insert_empty](https://github.com/Osraj/CSC212_Course/assets/46506381/2666e02a-105f-460c-a9f7-ef5835a57f01)
+![ADTList_DLL_Insert_empty](Insert()\ADTList_DLL_Insert_empty.gif)
 
 ***
 
@@ -18,8 +18,7 @@
   - Set the new node as the new head of the list.
 
 [//]: # ([Block] Insert when at the start of a list gif)
-![ADTList_DLL_Insert_atStart](https://github.com/Osraj/CSC212_Course/assets/46506381/b6171765-71c1-4960-9b05-de4c37496acd)
-
+![ADTList_DLL_Insert_atStart](Insert()\ADTList_DLL_Insert_atStart.gif)
 ***
 
 **Case 3: Inserting Between Nodes**
@@ -30,7 +29,7 @@
   - Update the `before` pointer of the next node to point back to the new node.
 
 [//]: # ([Block] Insert when at the middle of a list gif)
-![ADTList_DLL_Insert_atEnd](https://github.com/Osraj/CSC212_Course/assets/46506381/43b329a1-a581-4d9f-a589-ca0c614239d4)
+![ADTList_DLL_Insert_atEnd](Insert()\ADTList_DLL_Insert_atMiddle.gif)
 
 ***
 
@@ -41,4 +40,4 @@
   - Set the new node as the new last node, and it should point back to the previous last node.
 
 [//]: # ([Block] Insert when at the end of a list gif)
-![ADTList_DLL_Insert_atMiddle](https://github.com/Osraj/CSC212_Course/assets/46506381/acffda72-2c4f-44e9-b773-eb50da9fbf08)
+![ADTList_DLL_Insert_atMiddle](Insert()\ADTList_DLL_Insert_atEnd.gif)

@@ -8,6 +8,7 @@
 [//]: # ([Block] Insert when the list is empty gif)
 ![ADTList_DLL_Insert_empty](https://github.com/Osraj/CSC212_Course/assets/46506381/2666e02a-105f-460c-a9f7-ef5835a57f01)
 
+***
 
 **Case 2: Adding to the Front**
 - If you want to add a node to the front of the list:
@@ -19,6 +20,7 @@
 [//]: # ([Block] Insert when at the start of a list gif)
 ![ADTList_DLL_Insert_atStart](https://github.com/Osraj/CSC212_Course/assets/46506381/b6171765-71c1-4960-9b05-de4c37496acd)
 
+***
 
 **Case 3: Inserting Between Nodes**
 - When inserting a node between two existing nodes:
@@ -30,6 +32,7 @@
 [//]: # ([Block] Insert when at the middle of a list gif)
 ![ADTList_DLL_Insert_atEnd](https://github.com/Osraj/CSC212_Course/assets/46506381/43b329a1-a581-4d9f-a589-ca0c614239d4)
 
+***
 
 **Case 4: Appending at the End**
 - To add a node at the end of the list:

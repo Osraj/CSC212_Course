@@ -8,6 +8,8 @@
 [//]: # ([Block] Insert when the list is empty gif)
 ![ADTList_DLL_Insert_empty](Insert()\ADTList_DLL_Insert_empty.gif)
 
+<img src="Insert()/ADTList_DLL_Insert_empty.gif" alt="ADTList_DLL_Insert_empty" width="500">
+
 ***
 
 **Case 2: Adding to the Front**

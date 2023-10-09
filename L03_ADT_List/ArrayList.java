@@ -43,15 +43,16 @@ public class ArrayList<T> implements List<T> {
     }
 
     public void insert(T e) {
-        for (int i = size-1; i > current; i--) {
+        for (int i = (size-1); i > current; --i) {
             nodes[i+1] = nodes[i];  // Shift elements to the right to make space for the new element at the current index.
         }
+        current++;
         nodes[current] = e;  // Insert the new element at the current index.
         size++;  // Increment the size of the ArrayList.
     }
 
     public void remove() {
-        for (int i = current+1; i < size; i++) {
+        for (int i = (current+1); i < size; i++) {
             nodes[i-1] = nodes[i];  // Shift elements to the left to remove the element at the current index.
         }
         size--;  // Decrement the size of the ArrayList.

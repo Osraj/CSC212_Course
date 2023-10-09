@@ -29,8 +29,6 @@ public class Main {
         System.out.println("\nTesting ArrayList:");
         List<String> arrayList = new ArrayList<>(5);
 
-        arrayList.findFirst(); // Move the current index to the first element
-
         // Insert elements into the ArrayList
         arrayList.insert("A");
         arrayList.insert("B");
@@ -54,6 +52,7 @@ public class Main {
         // Remove the third element in the ArrayList (index 2)
         arrayList.findFirst(); // Move to the first element
         arrayList.findNext(); // Move to the second element
+        arrayList.findNext(); // Move to the third element
         arrayList.remove();
 
         System.out.println("After removing the third element:");

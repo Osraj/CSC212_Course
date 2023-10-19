@@ -62,4 +62,13 @@ public class ArrayList<T> implements List<T> {
             current = 0;   // If the current index was at the end, wrap it to the beginning.
         }
     }
+
+    // ╭──────────────────────────────────────────────────╮
+    // │    🌟 Additional Memebers implementations 🌟    │
+    // ╰──────────────────────────────────────────────────╯
+
+    // Question 1: Implement member method FindPrevious() for ArrayList
+    public void findPrevious() {
+        current--;  // Move to the previous element by decrementing the current index.
+    }
 }

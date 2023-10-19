@@ -65,4 +65,17 @@ public class LinkedList<T> implements List<T>{
             current = current.next;  // Otherwise, move the current reference to the next node.
         }
     }
+
+    // ╭──────────────────────────────────────────────────╮
+    // │    🌟 Additional Memebers implementations 🌟    │
+    // ╰──────────────────────────────────────────────────╯
+
+    // Question 1: Implement Member Method FindPrevious() for LinkedList
+    public void findPrevious() {
+        Node<T> tmp = head;
+        while (tmp.next != current) {
+            tmp = tmp.next;  // Find the node that precedes the current node in the list.
+        }
+        current = tmp;
+    }
 }

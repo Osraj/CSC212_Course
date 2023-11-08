@@ -5,6 +5,7 @@ package L03_ADT_List;
  *
  * 1. `empty()`: Checks if the list is empty.
  * 2. `full()`: Checks if the list is at maximum capacity.
+ * 
  * 3. `last()`: Checks if the cursor is at the last element.
  * 
  * 4. `findFirst()`: Moves the cursor to the first element.
@@ -21,6 +22,7 @@ package L03_ADT_List;
 public interface List<T> {
     public boolean empty();
     public boolean full();
+
     public boolean last();
 
     public void findFirst();

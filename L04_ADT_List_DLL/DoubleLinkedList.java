@@ -153,4 +153,19 @@ public class DoubleLinkedList<T> {
             current = current.next;
         }
     }
+
+    // ╭──────────────────────────────────────────────────╮
+    // │    🌟 Additional Memebers implementations 🌟    │
+    // ╰──────────────────────────────────────────────────╯
+    
+    // Question 1: Implement the member method FindLast()
+    // Requires: List L is not empty.
+    // Input: None.
+    // Results: Last element is set as the current element.
+    // Output: None.
+    public void findLast(){
+        findFirst();
+        while(current.next != null)
+            current = current.next;
+    }
 }
